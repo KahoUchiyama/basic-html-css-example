@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    margin-top: 10;
+    margin-left: 10;
+    margin-right: 10;
+    padding: 0;
+    color: black;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+header {
+    display: block;
+    background-color: grey;
+    padding: 10px;
+    margin-bottom: 0;
+}
+nav ul {
+    display: block;
+    background-color:#ddd ;
+    padding: 10px;
+    text-align: center;
+    list-style-position: inside;
+    margin-top: 0;
+}
+nav ul li {
+    
+    margin-right: 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: blue;
+}
+main {
+    display: inline-block;
+    background-color: #444;
+    padding: 20px;
+    color: white;
+    width: 100%;
+}
+
+
+.article{
+    display:block
+}
+
+.image-container {
+    display: block;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.article-box{
+    display: inline-block;
+    background: #ddd;
+    border: 3px solid yellow;
+    padding: 20px;
+}
+.image-box {
+    display: inline-block;
+    width: 180px;
+    aspect-ratio: 1/1;
+    padding: 30px;
+    background: #ddd;
+    text-align: center;
+    border: 3px solid yellow;
+    align-items: center;
+}
+
+.content, aside{
+    display: inline-block;
+    background: lightslategray;
+    padding: 20px;
+    border: 3px solid yellow;
+    list-style-position: inside;
+
+}
+
+.content{
+    width: 69%;
+    height: 413px;
+}
+
+aside {
+    width: 30%;
+    vertical-align: top;
+    height: 413px;
+}
+
+#project{
+    display: block;
+    margin-bottom: 10px;
+    border: 3px solid yellow;
+    background: #ddd;
+    
+}
+
+.month{
+    display: block;
+    border:3px solid yellow;
+    background: #ddd;
+    text-align: left;
+    padding-top: 0px;
+    height: 280px;
+}
+
+footer {
+    background-color: #ddd;
+    padding: 10px;
+    margin-top: 16px;
+    padding-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+.Privacy{
+    color: blue;
+}
+
+
+
